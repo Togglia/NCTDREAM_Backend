@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    hibernate:
+            ddl-auto: none #create update none
+    show-sql: true
+    format_sql: true
+    use_sql_comments: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  datasource:
+    url: jdbc:mysql://39a6f77d-5b6e-4742-b68c-1b2952ede602.external.kr1.mysql.rds.nhncloudservice.com:3306/cloud?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: nct
+    password: mysql12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
